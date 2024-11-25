@@ -39,7 +39,7 @@ Follow these steps to get the project up and running on your local machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/ai-calling-agent.git
+   git clone https://github.com/Syed-Ali-Hassan-ai/Voice-Calling-Agent.git
    ```
 
 2. **Navigate to the project directory:**
