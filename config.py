@@ -1,0 +1,26 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")
+TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
+TWILIO_PHONE_NUMBER = os.getenv("TWILIO_PHONE_NUMBER")
+PERSONAL_PHONE = os.getenv("PERSONAL_PHONE")
+OPENAI_API_KEY= os.getenv("OPENAI_API_KEY")
+NGROK_URL=os.getenv("NGROK_URL")
+
+MONGODB_URI=os.getenv("MONGODB_URI")
+
+
+FLASK_APP='app.py'
+FLASK_ENV='development'
+
+# print(f"TWILIO_ACCOUNT_SID: {TWILIO_ACCOUNT_SID}")
+# print(f"TWILIO_AUTH_TOKEN: {TWILIO_AUTH_TOKEN}")
+# print(f"TWILIO_PHONE_NUMBER: {TWILIO_PHONE_NUMBER}")
+# print(f"PERSONAL_PHONE: {PERSONAL_PHONE}")
+# print(f"OPENAI_API_KEY: {OPENAI_API_KEY}")
+# print(f"NGROK_URL: {NGROK_URL}")
+# print(f"MONGODB_URI: {MONGODB_URI}")
+
